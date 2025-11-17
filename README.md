@@ -10,15 +10,17 @@ Este projeto usa Python 3. Você precisará instalar as bibliotecas principais p
 
 Abra seu terminal e execute o seguinte comando para instalar todas as dependências necessárias de uma vez:
 
-```pip install osmnx networkx matplotlib scikit-learn```
-
+```bash
+pip install osmnx networkx matplotlib scikit-learn
+```
 ## ⚙️ Como Usar
 
 1.  **Execute o Script:**
     Abra um terminal na pasta do projeto e execute o arquivo principal:
 
-    ```python main.py```
-
+    ```bash
+    python main.py
+    ```
 2.  **Cache do Mapa (Primeira Execução):**
 
       * Na primeira vez que você rodar, o script irá baixar o mapa completo de Recife. Isso pode demorar 1 ou 2 minutos.
